@@ -58,7 +58,7 @@ def Occurrence_first_last(nums,target):
     for num in range(len(nums)):
         if nums[num]==target:
             index.append(num)
-    if len(index)>1:
+    if len(index)>=1:
         print(f"firs index {index[0]}, last index {index[-1]}")
     else:
         print(f"firs index: -1, last index:-1")
